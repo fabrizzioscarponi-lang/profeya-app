@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscar Profesores</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f5f7ff;
+        }
+
+        header {
+            background-color: #4b63ff;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .contenedor {
+            width: 90%;
+            margin: 40px auto;
+        }
+
+        .tarjetas {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .tarjeta {
+            background-color: white;
+            width: 280px;
+            padding: 20px;
+            border-radius: 15px;
+        }
+
+        .tarjeta img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .tarjeta h3 {
+            color: #4b63ff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>📚 Buscar Profesores</h1>
+        <p>Encontrá docentes particulares según la materia que necesites</p>
+    </header>
+    <div class="contenedor">
+        <div class="tarjetas">
+            <div class="tarjeta"> <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e">
+                <h3>Lucas Gómez</h3>
+                <p><strong>Materia:</strong> Álgebra</p>
+                <p><strong>Modalidad:</strong> Virtual</p>
+                <p>⭐ 4.9</p>
+            </div>
+            <div class="tarjeta"> <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330">
+                <h3>Martina Fernández</h3>
+                <p><strong>Materia:</strong> Física</p>
+                <p><strong>Modalidad:</strong> Presencial</p>
+                <p>⭐ 4.8</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
