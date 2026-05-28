@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Registro Profesores</title>
+
+<style>
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #f5f7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.registro-container {
+
+  background-color: white;
+  width: 450px;
+  padding: 40px;
+  border-radius: 20px;
+
+}
+
+h1 {
+  text-align: center;
+  color: #4b63ff;
+}
+
+label {
+
+  display: block;
+  margin-top: 15px;
+
+}
+
+input,
+select {
+
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+
+}
+
+button {
+
+  width: 100%;
+  padding: 14px;
+  margin-top: 25px;
+  border: none;
+  border-radius: 10px;
+  background-color: #4b63ff;
+  color: white;
+  cursor: pointer;
+
+}
+
+a {
+
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #666;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="registro-container">
+
+<h1>📚 Registro de Profesores</h1>
+
+<form>
+
+<label>Nombre completo</label>
+<input type="text">
+
+<label>Correo electrónico</label>
+<input type="email">
+
+<label>Materia principal</label>
+
+<select>
+  <option>Álgebra</option>
+  <option>Física</option>
+  <option>Programación</option>
+  <option>Inglés</option>
+</select>
+
+<label>Modalidad</label>
+
+<select>
+  <option>Virtual</option>
+  <option>Presencial</option>
+  <option>Ambas</option>
+</select>
+
+<label>Contraseña</label>
+<input type="password">
+
+<button type="button" onclick="registrarProfesor()">
+Registrarse
+</button>
+
+</form>
+
+<a href="index.html">Volver al inicio</a>
+
+</div>
+
+<script>
+
+function registrarProfesor() {
+
+ alert('Registro realizado correctamente 📚');
+
+}
+
+</script>
+
+</body>
+
+</html>
